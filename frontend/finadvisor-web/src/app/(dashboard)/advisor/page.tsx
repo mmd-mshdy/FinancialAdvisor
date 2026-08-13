@@ -1,0 +1,2 @@
+import { Card } from "@/components/ui/Card";
+export default function Page() { return <div className="mx-auto max-w-7xl"><h1 className="text-3xl font-bold">Advisor</h1><p className="mt-2 text-[var(--muted)]">This module is ready for its first feature.</p><Card className="mt-6"><p className="text-[var(--muted)]">Connect this screen after the corresponding backend module contract is ready.</p></Card></div>; }
