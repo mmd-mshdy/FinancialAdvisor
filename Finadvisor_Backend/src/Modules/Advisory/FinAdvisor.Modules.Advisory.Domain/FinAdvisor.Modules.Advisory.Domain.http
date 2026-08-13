@@ -1,0 +1,6 @@
+@FinAdvisor.Modules.Advisory.Domain_HostAddress = http://localhost:5045
+
+GET {{FinAdvisor.Modules.Advisory.Domain_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

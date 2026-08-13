@@ -1,0 +1,6 @@
+@FinAdvisor.BuildingBlocks.Infrastructure_HostAddress = http://localhost:5143
+
+GET {{FinAdvisor.BuildingBlocks.Infrastructure_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

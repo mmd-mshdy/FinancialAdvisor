@@ -1,0 +1,6 @@
+@FinAdvisor.Modules.Wallet.Domain_HostAddress = http://localhost:5182
+
+GET {{FinAdvisor.Modules.Wallet.Domain_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,53 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FinAdvisor.API/FinAdvisor.API.csproj" Id="7018ead7-5c0f-4a19-9dd8-54230f9732be" />
+  </Folder>
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/FinAdvisor.BuildingBlocks.Application/FinAdvisor.BuildingBlocks.Application.csproj" Id="c15c677e-9a54-4e90-92d3-fe6573390a77" />
+    <Project Path="src/BuildingBlocks/FinAdvisor.BuildingBlocks.Domain/FinAdvisor.BuildingBlocks.Domain.csproj" Id="17186caa-5e32-498c-8952-8851d6308854" />
+    <Project Path="src/BuildingBlocks/FinAdvisor.BuildingBlocks.Infrastructure/FinAdvisor.BuildingBlocks.Infrastructure.csproj" Id="7ad5d8fd-1e0a-4064-a6b0-6615a62caca4" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Advisory/">
+    <Project Path="src/Modules/Advisory/FinAdvisor.Modules.Advisory.Application/FinAdvisor.Modules.Advisory.Application.csproj" Id="8f1e14e6-33bb-4832-a958-0b92f7ba49da" />
+    <Project Path="src/Modules/Advisory/FinAdvisor.Modules.Advisory.Contracts/FinAdvisor.Modules.Advisory.Contracts.csproj" Id="0f5ee54b-d5f5-4494-b419-ba3c614dd3c3" />
+    <Project Path="src/Modules/Advisory/FinAdvisor.Modules.Advisory.Domain/FinAdvisor.Modules.Advisory.Domain.csproj" Id="10aeb8e1-ac23-49a3-973a-22ded91bb4ab" />
+    <Project Path="src/Modules/Advisory/FinAdvisor.Modules.Advisory.Infrastructure/FinAdvisor.Modules.Advisory.Infrastructure.csproj" Id="544f723a-13aa-47cf-9c7a-f99de006d9b2" />
+  </Folder>
+  <Folder Name="/src/Modules/Assets/">
+    <Project Path="src/Modules/Assets/FinAdvisor.Modules.Assets.Application/FinAdvisor.Modules.Assets.Application.csproj" Id="2196b7be-9a30-4ecb-8b1d-d2fde2c336eb" />
+    <Project Path="src/Modules/Assets/FinAdvisor.Modules.Assets.Contracts/FinAdvisor.Modules.Assets.Contracts.csproj" Id="d15a2b44-196b-4aed-a0d6-6a814ffaaaa1" />
+    <Project Path="src/Modules/Assets/FinAdvisor.Modules.Assets.Domain/FinAdvisor.Modules.Assets.Domain.csproj" Id="b282ae4f-8843-45a1-b271-4e57355e9eec" />
+    <Project Path="src/Modules/Assets/FinAdvisor.Modules.Assets.Infrastructure/FinAdvisor.Modules.Assets.Infrastructure.csproj" Id="cbba1dd0-2213-409e-bad5-7651d4679922" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/FinAdvisor.Modules.Identity.Application/FinAdvisor.Modules.Identity.Application.csproj" Id="330c3f43-891a-4dba-9f51-f57a61f4a4a8" />
+    <Project Path="src/Modules/Identity/FinAdvisor.Modules.Identity.Contracts/FinAdvisor.Modules.Identity.Contracts.csproj" Id="94c21e75-9d27-441f-a04d-c2ed74b5843f" />
+    <Project Path="src/Modules/Identity/FinAdvisor.Modules.Identity.Domain/FinAdvisor.Modules.Identity.Domain.csproj" Id="413a9c6d-b02e-4cb1-9333-d4647f078b4c" />
+    <Project Path="src/Modules/Identity/FinAdvisor.Modules.Identity.Infrastructure/FinAdvisor.Modules.Identity.Infrastructure.csproj" Id="8c41be2e-f5c6-445a-b741-27c02775365a" />
+  </Folder>
+  <Folder Name="/src/Modules/Notification/">
+    <Project Path="src/Modules/Notifications/FinAdvisor.Modules.Notifications.Application/FinAdvisor.Modules.Notifications.Application.csproj" Id="a93d2202-c49e-4c5e-960c-ffad80b29fc8" />
+    <Project Path="src/Modules/Notifications/FinAdvisor.Modules.Notifications.Contracts/FinAdvisor.Modules.Notifications.Contracts.csproj" Id="9212c2dd-221e-47f0-8ae2-1284cb47fe85" />
+    <Project Path="src/Modules/Notifications/FinAdvisor.Modules.Notifications.Domain/FinAdvisor.Modules.Notifications.Domain.csproj" Id="fdcb29f0-2597-490a-9f91-ec37ba248f1d" />
+    <Project Path="src/Modules/Notifications/FinAdvisor.Modules.Notifications.Infrastructure/FinAdvisor.Modules.Notifications.Infrastructure.csproj" Id="2f383243-67ae-4fd9-9fe5-70fdb3d7053e" />
+  </Folder>
+  <Folder Name="/src/Modules/Portfolio/">
+    <Project Path="src/Modules/Portfolio/FinAdvisor.Modules.Portfolio.Application/FinAdvisor.Modules.Portfolio.Application.csproj" Id="83273605-d953-4977-8d74-eb5e4a758512" />
+    <Project Path="src/Modules/Portfolio/FinAdvisor.Modules.Portfolio.Contracts/FinAdvisor.Modules.Portfolio.Contracts.csproj" Id="b945d889-63d7-484f-81de-6178be8ce5a1" />
+    <Project Path="src/Modules/Portfolio/FinAdvisor.Modules.Portfolio.Domain/FinAdvisor.Modules.Portfolio.Domain.csproj" Id="23574675-2c27-41df-b4d9-34bb7ac48a99" />
+    <Project Path="src/Modules/Portfolio/FinAdvisor.Modules.Portfolio.Infrastructure/FinAdvisor.Modules.Portfolio.Infrastructure.csproj" Id="6cac6ea9-2647-4eda-96f5-ef2f0373f5fd" />
+  </Folder>
+  <Folder Name="/src/Modules/Prediction/">
+    <Project Path="src/Modules/Predictions/FinAdvisor.Modules.Predictions.Application/FinAdvisor.Modules.Predictions.Application.csproj" Id="c0edef3d-8968-4a10-a77e-6bcbc99c1e91" />
+    <Project Path="src/Modules/Predictions/FinAdvisor.Modules.Predictions.Contracts/FinAdvisor.Modules.Predictions.Contracts.csproj" Id="42e9172b-0e51-4d2c-9750-56e04f454b80" />
+    <Project Path="src/Modules/Predictions/FinAdvisor.Modules.Predictions.Domain/FinAdvisor.Modules.Predictions.Domain.csproj" Id="35803b1a-1ff2-4501-bc22-5f587c22eb76" />
+    <Project Path="src/Modules/Predictions/FinAdvisor.Modules.Predictions.Infrastructure/FinAdvisor.Modules.Predictions.Infrastructure.csproj" Id="6b7d3550-85bf-49ad-af9b-faf81b970011" />
+  </Folder>
+  <Folder Name="/src/Modules/Wallet/">
+    <Project Path="src/Modules/Wallet/FinAdvisor.Modules.Wallet.Application/FinAdvisor.Modules.Wallet.Application.csproj" Id="40cf5034-b57d-4e86-a1d1-6ec9271b5478" />
+    <Project Path="src/Modules/Wallet/FinAdvisor.Modules.Wallet.Contracts/FinAdvisor.Modules.Wallet.Contracts.csproj" Id="35137c9e-ade0-4a79-aed2-e1ecababc859" />
+    <Project Path="src/Modules/Wallet/FinAdvisor.Modules.Wallet.Domain/FinAdvisor.Modules.Wallet.Domain.csproj" Id="8249e4aa-2121-4a5f-b727-5fdafc6d206c" />
+    <Project Path="src/Modules/Wallet/FinAdvisor.Modules.Wallet.Infrastructure/FinAdvisor.Modules.Wallet.Infrastructure.csproj" Id="88d059fe-3c1d-41ae-98d8-1f3dfd58c397" />
+  </Folder>
+</Solution>
