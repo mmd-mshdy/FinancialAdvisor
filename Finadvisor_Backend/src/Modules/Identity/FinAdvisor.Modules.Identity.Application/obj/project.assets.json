@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
       "projectName": "FinAdvisor.Modules.Identity.Application",
-      "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
+      "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
       "packagesPath": "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor.Modules.Identity.Application\\obj\\",
+      "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,7 +55,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -86,7 +86,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

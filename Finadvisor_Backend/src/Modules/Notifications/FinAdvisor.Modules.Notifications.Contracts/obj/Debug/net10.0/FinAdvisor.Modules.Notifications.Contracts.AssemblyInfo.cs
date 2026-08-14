@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinAdvisor.Modules.Notifications.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cb78ff6120d984bb7727d5a36e434346df5625f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e89f0bbb054bd889838c7d2185bde74aeab3fa52")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinAdvisor.Modules.Notifications.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinAdvisor.Modules.Notifications.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
