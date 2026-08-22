@@ -18,8 +18,8 @@ namespace FinAdvisor.Modules.Identity.Domain.Users
         public DateTime CreatedAtUtc { get; private set; }
         public DateTime? UpdatedAtUtc { get; private set; }
         public DateTime LastLoginAt { get; private set; }
-        private User() { }
-        public User(Guid id, string firstName, string lastName, string email, string passwordHash, UserRole role)
+        private User(Guid id) : base(id) { }
+        public User(Guid id, string firstName, string lastName, string email, string passwordHash, UserRole role) : base (id)
         {
             Id = id;
             FirstName = firstName ?? string.Empty;

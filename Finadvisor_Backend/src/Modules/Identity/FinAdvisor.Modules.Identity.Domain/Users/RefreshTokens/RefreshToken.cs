@@ -7,22 +7,22 @@ namespace FinAdvisor.Modules.Identity.Domain.Users.RefreshTokens
 {
     public sealed class RefreshToken : Entity
     {
-        private RefreshToken() { }
+        private RefreshToken(Guid id) : base(id) { }
 
         private RefreshToken(
             Guid id,
             Guid userId,
             string token,
-            DateTime expiresAtUtc)
+            DateTime expiresAtUtc) :base(id)
         {
             Id = id;
             UserId = userId;
-            Token = token;
+            TokenHash = token;
             ExpiresAtUtc = expiresAtUtc;
             CreatedAtUtc = DateTime.UtcNow;
         }
         public Guid UserId { get; private set; }
-        public string Token { get; private set; } = null!;
+        public string TokenHash { get; private set; } = null!;
         public DateTime CreatedAtUtc { get; private set; }
         public DateTime ExpiresAtUtc { get; private set; }
         public DateTime? RevokedAtUtc { get; private set; }

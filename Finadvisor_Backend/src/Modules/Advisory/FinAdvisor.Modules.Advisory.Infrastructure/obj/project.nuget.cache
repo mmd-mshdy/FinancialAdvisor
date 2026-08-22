@@ -1,17 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0pNFlVCeta0=",
-  "success": false,
+  "dgSpecHash": "4RGTzHOKNZU=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Advisory\\FinAdvisor.Modules.Advisory.Infrastructure\\FinAdvisor.Modules.Advisory.Infrastructure.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  The HTTP request to 'GET https://api.nuget.org/v3/index.json' has timed out after 100000ms.",
-      "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Advisory\\FinAdvisor.Modules.Advisory.Infrastructure\\FinAdvisor.Modules.Advisory.Infrastructure.csproj",
-      "filePath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Advisory\\FinAdvisor.Modules.Advisory.Infrastructure\\FinAdvisor.Modules.Advisory.Infrastructure.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }
