@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\FinAdvisor.BuildingBlocks.Application\FinAdvisor.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\FinAdvisor.BuildingBlocks.Domain\FinAdvisor.BuildingBlocks.Domain.csproj" />
     <ProjectReference Include="..\FinAdvisor.Modules.Identity.Domain\FinAdvisor.Modules.Identity.Domain.csproj" />
   </ItemGroup>
 

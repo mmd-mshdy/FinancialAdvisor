@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinAdvisor.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41b0023f6dd2867376b3c1c23b316c7957d62950")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6b1772907eb17cf839bcec64dabed133a64afed")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinAdvisor.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinAdvisor.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

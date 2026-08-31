@@ -51,6 +51,24 @@ namespace FinAdvisor.Modules.Identity.Domain.Users
 
             return user;
         }
+        public void ChangePassword(string newPasswordHash)
+        {
+            if (string.IsNullOrWhiteSpace(newPasswordHash))
+            {
+                throw new ArgumentException(
+                    "Password hash cannot be empty.",
+                    nameof(newPasswordHash));
+            }
+
+            PasswordHash = newPasswordHash;
+        }
+        public void UpdateProfile(
+    string firstName,
+    string lastName)
+        {
+            FirstName = firstName;
+            FamilyName = lastName;
+        }
     }
 
     }

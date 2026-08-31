@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddIdentityModule(
     builder.Configuration);
+builder.Services.AddIdentityInfrastructure();
 
 var app = builder.Build();
 

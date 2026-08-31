@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinAdvisor.BuildingBlocks.Domain\FinAdvisor.BuildingBlocks.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
