@@ -1,4 +1,4 @@
-﻿namespace FinAdvisor.Modules.Identity.Application.Users.Login;
+﻿namespace FinAdvisor.Modules.Identity.Application.Authentication;
 
 public sealed record AuthenticationResponse(
     Guid UserId,

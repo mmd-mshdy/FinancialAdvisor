@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinAdvisor.Modules.Identity.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6b1772907eb17cf839bcec64dabed133a64afed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ddcc76f5615eb2ef8bcd8b9d8057a6923e1de5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinAdvisor.Modules.Identity.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinAdvisor.Modules.Identity.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

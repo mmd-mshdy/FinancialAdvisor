@@ -3,82 +3,83 @@ using FinAdvisor.BuildingBlocks.Domain.Results;
 using FinAdvisor.Modules.Identity.Application.Abstractions.Authentication;
 using FinAdvisor.Modules.Identity.Application.Abstractions.Persistence;
 using FinAdvisor.Modules.Identity.Application.Authentication;
+using FinAdvisor.Modules.Identity.Application.Authentication.RefreshToken;
 using FinAdvisor.Modules.Identity.Domain.Users;
 using FinAdvisor.Modules.Identity.Domain.Users.RefreshTokens;
 
-namespace FinAdvisor.Modules.Identity.Application.Users.Login;
 
-internal sealed class LoginUserCommandHandler
-    : ICommandHandler<LoginUserCommand, AuthenticationResponse>
+internal sealed class RefreshTokenCommandHandler
+    : ICommandHandler<RefreshTokenCommand, AuthenticationResponse>
 {
     private readonly IRefreshTokenRepository _refreshTokenRepository;
     private readonly IUserRepository _userRepository;
-    private readonly IPasswordHasher _passwordHasher;
     private readonly ITokenProvider _tokenProvider;
     private readonly IUnitOfWork _unitOfWork;
     private readonly IRefreshTokenHasher _refreshTokenHasher;
-
-
-
-    public LoginUserCommandHandler(
-        IUserRepository userRepository,
-        IPasswordHasher passwordHasher,
-        ITokenProvider tokenProvider,
+    public RefreshTokenCommandHandler(
         IRefreshTokenRepository refreshTokenRepository,
+        IUserRepository userRepository,
+        ITokenProvider tokenProvider,
         IUnitOfWork unitOfWork,
         IRefreshTokenHasher refreshTokenHasher)
     {
-        _userRepository = userRepository;
-        _passwordHasher = passwordHasher;
-        _tokenProvider = tokenProvider;
         _refreshTokenRepository = refreshTokenRepository;
+        _userRepository = userRepository;
+        _tokenProvider = tokenProvider;
         _unitOfWork = unitOfWork;
         _refreshTokenHasher = refreshTokenHasher;
     }
 
     public async Task<Result<AuthenticationResponse>> Handle(
-        LoginUserCommand command,
+        RefreshTokenCommand command,
         CancellationToken cancellationToken)
     {
+        string tokenHash =
+            _refreshTokenHasher.Hash(
+                command.RefreshToken);
+
+        RefreshToken? existingToken =
+            await _refreshTokenRepository.GetByTokenHashAsync(
+                tokenHash,
+                cancellationToken);
+
+        if (existingToken is null ||
+            !existingToken.IsActive)
+        {
+            return Result.Failure<AuthenticationResponse>(
+                RefreshTokenErrors.Invalid);
+        }
+
         User? user =
-            await _userRepository.GetByEmailAsync(
-                command.Email,
+            await _userRepository.GetByIdAsync(
+                existingToken.UserId,
                 cancellationToken);
 
         if (user is null)
         {
             return Result.Failure<AuthenticationResponse>(
-                UserErrors.InvalidCredentials);
+                RefreshTokenErrors.Invalid);
         }
 
-        bool passwordIsValid =
-            _passwordHasher.Verify(
-                command.Password,
-                user.PasswordHash);
-
-        if (!passwordIsValid)
-        {
-            return Result.Failure<AuthenticationResponse>(
-                UserErrors.InvalidCredentials);
-        }
+        existingToken.Revoke();
 
         AccessToken accessToken =
             _tokenProvider.GenerateAccessToken(user);
 
-        RefreshTokenData refreshTokenData =
+        RefreshTokenData newRefreshTokenData =
             _tokenProvider.GenerateRefreshToken();
 
-        string tokenHash =
+        string newTokenHash =
             _refreshTokenHasher.Hash(
-                refreshTokenData.Token);
+                newRefreshTokenData.Token);
 
-        RefreshToken refreshToken =
+        RefreshToken newRefreshToken =
             RefreshToken.Create(
                 user.Id,
-                tokenHash,
-                refreshTokenData.ExpiresAt);
+                newTokenHash,
+                newRefreshTokenData.ExpiresAt);
 
-        _refreshTokenRepository.Add(refreshToken);
+        _refreshTokenRepository.Add(newRefreshToken);
 
         await _unitOfWork.SaveChangesAsync(
             cancellationToken);
@@ -86,7 +87,7 @@ internal sealed class LoginUserCommandHandler
         return new AuthenticationResponse(
             user.Id,
             accessToken.Value,
-            refreshToken.TokenHash,
+            newRefreshTokenData.Token,
             accessToken.ExpiresAt);
     }
 }

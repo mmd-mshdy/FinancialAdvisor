@@ -21,7 +21,7 @@ internal sealed class RefreshTokenConfiguration
             .IsRequired();
 
         builder.Property(token => token.TokenHash)
-            .HasMaxLength(500)
+            .HasMaxLength(64)
             .IsRequired();
 
         builder.HasIndex(token => token.TokenHash)
