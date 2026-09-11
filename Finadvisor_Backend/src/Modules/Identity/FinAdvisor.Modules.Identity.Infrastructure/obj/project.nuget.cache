@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "aQJDDLdwq0k=",
+  "dgSpecHash": "B0loGUC7a20=",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
+    "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.10\\microsoft.aspnetcore.authentication.2.3.10.nupkg.sha512",
     "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.3.11\\microsoft.aspnetcore.authentication.cookies.2.3.11.nupkg.sha512",

@@ -1,4 +1,5 @@
 ﻿using FinAdvisor.Modules.Identity.Application.Abstractions.Authentication;
+using FinAdvisor.Modules.Identity.Application.Abstractions.Authetication;
 using FinAdvisor.Modules.Identity.Application.Abstractions.Persistence;
 using FinAdvisor.Modules.Identity.Infrastructure.Authentication;
 using FinAdvisor.Modules.Identity.Infrastructure.Persistence.Repositories;
@@ -52,6 +53,9 @@ public static class DependencyInjection
 
         services.AddAuthorization();
 
+        services.AddHttpContextAccessor();
+
+        services.AddScoped<IUserContext, UserContext>();
         services.AddScoped<IRefreshTokenRepository , RefreshTokenRepository>();
         services.AddScoped<ITokenProvider, TokenProvider>();
         services.AddScoped<IPasswordHasher, PasswordHasher>();

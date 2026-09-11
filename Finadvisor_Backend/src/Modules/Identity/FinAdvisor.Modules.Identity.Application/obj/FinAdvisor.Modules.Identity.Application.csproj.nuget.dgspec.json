@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {}
+          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -55,6 +56,12 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -371,7 +378,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {}
+          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -712,7 +720,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {}
+          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -1063,7 +1072,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {}
+          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
         },
         "frameworks": {
           "net10.0": {

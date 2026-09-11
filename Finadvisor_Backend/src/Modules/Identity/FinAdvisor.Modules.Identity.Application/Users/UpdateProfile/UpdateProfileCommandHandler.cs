@@ -1,5 +1,6 @@
 ﻿using FinAdvisor.BuildingBlocks.Application.Messaging;
 using FinAdvisor.BuildingBlocks.Domain.Results;
+using FinAdvisor.Modules.Identity.Application.Abstractions.Authetication;
 using FinAdvisor.Modules.Identity.Application.Abstractions.Persistence;
 using FinAdvisor.Modules.Identity.Domain.Users;
 
@@ -10,13 +11,15 @@ internal sealed class UpdateProfileCommandHandler
 {
     private readonly IUserRepository _userRepository;
     private readonly IUnitOfWork _unitOfWork;
-
+    private readonly IUserContext _userContext;
     public UpdateProfileCommandHandler(
         IUserRepository userRepository,
-        IUnitOfWork unitOfWork)
+        IUnitOfWork unitOfWork,
+        IUserContext userContext)
     {
         _userRepository = userRepository;
         _unitOfWork = unitOfWork;
+        _userContext = userContext;
     }
 
     public async Task<Result> Handle(
@@ -25,13 +28,13 @@ internal sealed class UpdateProfileCommandHandler
     {
         User? user =
             await _userRepository.GetByIdAsync(
-                command.UserId,
+               _userContext.UserId,
                 cancellationToken);
 
         if (user is null)
         {
             return Result.Failure(
-                UserErrors.NotFound(command.UserId));
+                UserErrors.NotFound(_userContext.UserId));
         }
 
         user.UpdateProfile(
