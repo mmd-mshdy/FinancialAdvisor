@@ -27,9 +27,10 @@ internal sealed class RegisterUserCommandHandler
         RegisterUserCommand command,
         CancellationToken cancellationToken)
     {
+        string email = command.Email.Trim().ToLowerInvariant();
         User? existingUser =
             await _userRepository.GetByEmailAsync(
-                command.Email,
+                email,
                 cancellationToken);
 
         if (existingUser is not null)
@@ -42,10 +43,11 @@ internal sealed class RegisterUserCommandHandler
             _passwordHasher.Hash(command.Password);
 
         User user = User.Create(
-            command.Email,
-            passwordHash,
+            email,
             command.FirstName,
-            command.LastName);
+            command.LastName,
+            passwordHash
+            );
 
         _userRepository.Add(user);
 

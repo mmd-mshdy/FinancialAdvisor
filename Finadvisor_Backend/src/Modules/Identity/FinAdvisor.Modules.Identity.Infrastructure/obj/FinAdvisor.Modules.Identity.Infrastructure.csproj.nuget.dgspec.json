@@ -1,41 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj": {}
+    "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj": {
+    "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj",
+        "projectUniqueName": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj",
         "projectName": "FinAdvisor.BuildingBlocks.Application",
-        "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj",
-        "packagesPath": "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\obj\\",
+        "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj",
+        "packagesPath": "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad's Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhamara_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
-          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj"
+              "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
+                "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj"
               }
             }
           }
@@ -356,30 +349,23 @@
         }
       }
     },
-    "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
+    "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj",
         "projectName": "FinAdvisor.BuildingBlocks.Domain",
-        "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\obj\\",
+        "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad's Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhamara_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
-          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -698,44 +684,37 @@
         }
       }
     },
-    "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj": {
+    "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
+        "projectUniqueName": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
         "projectName": "FinAdvisor.Modules.Identity.Application",
-        "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
-        "packagesPath": "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\obj\\",
+        "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj",
+        "packagesPath": "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad's Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhamara_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
-          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj": {
-                "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj"
+              "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj": {
+                "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Application\\FinAdvisor.BuildingBlocks.Application.csproj"
               },
-              "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj"
+              "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
+                "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj"
               },
-              "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj"
+              "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj": {
+                "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj"
               }
             }
           }
@@ -1050,38 +1029,31 @@
         }
       }
     },
-    "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj": {
+    "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj",
         "projectName": "FinAdvisor.Modules.Identity.Domain",
-        "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\obj\\",
+        "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad's Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhamara_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
-          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj"
+              "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj": {
+                "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\BuildingBlocks\\FinAdvisor.BuildingBlocks.Domain\\FinAdvisor.BuildingBlocks.Domain.csproj"
               }
             }
           }
@@ -1396,41 +1368,34 @@
         }
       }
     },
-    "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj": {
+    "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj",
         "projectName": "FinAdvisor.Modules.Identity.Infrastructure",
-        "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\obj\\",
+        "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\FinAdvisor.Modules.Identity.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad's Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhamara_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://mirror2.chabokan.net/nuget/v3/index.json": {},
-          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj": {
-                "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj"
+              "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj": {
+                "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Application\\FinAdvisor.Modules.Identity.Application.csproj"
               },
-              "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj"
+              "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj": {
+                "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Identity\\FinAdvisor.Modules.Identity.Domain\\FinAdvisor.Modules.Identity.Domain.csproj"
               }
             }
           }

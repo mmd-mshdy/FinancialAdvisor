@@ -19,11 +19,11 @@ namespace FinAdvisor.Modules.Identity.Domain.Users
         public DateTime? UpdatedAtUtc { get; private set; }
         public DateTime LastLoginAt { get; private set; }
         private User(Guid id) : base(id) { }
-        public User(Guid id, string firstName, string lastName, string email, string passwordHash, UserRole role) : base (id)
+        public User(Guid id, string firstName, string lastName, string email, string passwordHash, UserRole role) : base(id)
         {
             Id = id;
             FirstName = firstName ?? string.Empty;
-            lastName = lastName ?? string.Empty;
+            FamilyName = lastName ?? string.Empty;
             Email = email;
             PasswordHash = passwordHash;
             CreatedAtUtc = DateTime.UtcNow;
@@ -38,9 +38,9 @@ namespace FinAdvisor.Modules.Identity.Domain.Users
         {
             var user = new User(
                 Guid.NewGuid(),
-                email.Trim().ToLowerInvariant(),
                 firstName.Trim(),
                 lastName.Trim(),
+                email.Trim().ToLowerInvariant(),
                 passwordHash,
                 UserRole.User);
 
@@ -71,4 +71,4 @@ namespace FinAdvisor.Modules.Identity.Domain.Users
         }
     }
 
-    }
+}

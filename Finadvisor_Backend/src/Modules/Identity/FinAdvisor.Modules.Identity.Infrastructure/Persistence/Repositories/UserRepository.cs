@@ -1,9 +1,6 @@
 ﻿using FinAdvisor.Modules.Identity.Application.Abstractions.Persistence;
 using FinAdvisor.Modules.Identity.Domain.Users;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FinAdvisor.Modules.Identity.Infrastructure.Persistence.Repositories
 {
@@ -44,9 +41,9 @@ namespace FinAdvisor.Modules.Identity.Infrastructure.Persistence.Repositories
         public void Update(User user)
         {
 
-           var check = _dbContext.Users?.FirstOrDefaultAsync(x => x.Id == user.Id);
+            var check = _dbContext.Users?.FirstOrDefaultAsync(x => x.Id == user.Id);
             if (check == null) throw new InvalidOperationException(nameof(user));
-            _dbContext.Users.Update(user);
+            _dbContext?.Users?.Update(user);
         }
     }
 }

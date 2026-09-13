@@ -83,33 +83,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Predictions\\FinAdvisor.Modules.Predictions.Application\\FinAdvisor.Modules.Predictions.Application.csproj",
+      "projectUniqueName": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Predictions\\FinAdvisor.Modules.Predictions.Application\\FinAdvisor.Modules.Predictions.Application.csproj",
       "projectName": "FinAdvisor.Modules.Predictions.Application",
-      "projectPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Predictions\\FinAdvisor.Modules.Predictions.Application\\FinAdvisor.Modules.Predictions.Application.csproj",
-      "packagesPath": "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Predictions\\FinAdvisor.Modules.Predictions.Application\\obj\\",
+      "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Predictions\\FinAdvisor.Modules.Predictions.Application\\FinAdvisor.Modules.Predictions.Application.csproj",
+      "packagesPath": "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Predictions\\FinAdvisor.Modules.Predictions.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mohammad's Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Dhamara_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://mirror2.chabokan.net/nuget/v3/index.json": {},
-        "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
@@ -576,5 +568,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

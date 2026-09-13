@@ -40,9 +40,10 @@ internal sealed class LoginUserCommandHandler
         LoginUserCommand command,
         CancellationToken cancellationToken)
     {
+        string email = command.Email.Trim().ToLowerInvariant();
         User? user =
             await _userRepository.GetByEmailAsync(
-                command.Email,
+                email,
                 cancellationToken);
 
         if (user is null)
@@ -86,7 +87,7 @@ internal sealed class LoginUserCommandHandler
         return new AuthenticationResponse(
             user.Id,
             accessToken.Value,
-            refreshToken.TokenHash,
+            refreshTokenData.Token,
             accessToken.ExpiresAt);
     }
 }

@@ -1,11 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "GH7ileusMzQ=",
+  "dgSpecHash": "+TJeYKi0jwM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohammad's Lenovo\\source\\repos\\FinAdvisor\\Finadvisor_Backend\\src\\Modules\\Assets\\FinAdvisor.Modules.Assets.Domain\\FinAdvisor.Modules.Assets.Domain.csproj",
+  "projectFilePath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Assets\\FinAdvisor.Modules.Assets.Domain\\FinAdvisor.Modules.Assets.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
-    "C:\\Users\\Mohammad's Lenovo\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\Dhamara_Dev\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Assets\\FinAdvisor.Modules.Assets.Domain\\FinAdvisor.Modules.Assets.Domain.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Project\\FinancialAdvisor\\Finadvisor_Backend\\src\\Modules\\Assets\\FinAdvisor.Modules.Assets.Domain\\FinAdvisor.Modules.Assets.Domain.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
